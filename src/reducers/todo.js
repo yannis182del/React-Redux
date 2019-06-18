@@ -6,7 +6,7 @@ const initialState = {
     { id: 2, name: "Create Initial State", isComplete: true },
     { id: 3, name: "Use state to render UI", isComplete: true }
   ],
-  currentTodo: ""
+  currentTodo: "",
 };
 
 const TODO_ADD = "TODO_ADD";

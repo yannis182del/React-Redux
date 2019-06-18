@@ -1,0 +1,7 @@
+{
+  "todos": [
+    { "id": 1, "name": "Configure the file" },
+    { "id": 2, "name": "Fix the dependencies" },
+    { "id": 2, "name": "Learn Redux" }
+  ]
+}
