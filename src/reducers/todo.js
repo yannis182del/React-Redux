@@ -12,9 +12,8 @@ const initialState = {
 const TODO_ADD = "TODO_ADD";
 const CURRENT_UPDATE = "CURRENT_UPDATE";
 
-export const updateCurrent = val => ({ type: CURRENT_UPDATE, payload: val });
 
-// This is the reducer to control my app with switch cases
+export const updateCurrent = val => ({ type: CURRENT_UPDATE, payload: val });
 
 export default (state = initialState, action) => {
   switch (action.type) {
