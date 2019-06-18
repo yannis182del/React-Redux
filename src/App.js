@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
 import TodoForm from "./Components/TodoForm";
 import TodoList from "./Components/TodoList";
 
@@ -18,4 +19,7 @@ class App extends Component {
   }
 }
 
-export default App;
+const mapStateToProps = state => state
+const ConnectedApp = connect(mapStateToProps)(App);
+
+export default ConnectedApp;

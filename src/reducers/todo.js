@@ -13,7 +13,11 @@ const TODO_ADD = "TODO_ADD";
 const CURRENT_UPDATE = "CURRENT_UPDATE";
 
 
+<<<<<<< HEAD
 export const updateCurrent = val => ({ type: CURRENT_UPDATE, payload: val });
+=======
+
+>>>>>>> 5dd7f90637d1ddd4595cb3f637fcdbddc54c9c97
 
 export default (state = initialState, action) => {
   switch (action.type) {
