@@ -1,5 +1,6 @@
 // The initial state of my App
 import { getTodos, createTodo } from "../lib/todoServices";
+import { showMessage } from "./message";
 
 const initialState = {
   todos: [],
@@ -22,6 +23,7 @@ export const fetchTodos = () => {
 
 export const saveTodo = name => {
   return dispatch => {
+    dispatch(showMessage("Saving Todo"));
     createTodo(name).then(res => dispatch(addTodo(res)));
   };
 };
