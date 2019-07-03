@@ -46,6 +46,11 @@
       "name": "Learn react-redux",
       "isComplete": false,
       "id": 9
+    },
+    {
+      "name": "another new todo",
+      "isComplete": false,
+      "id": 10
     }
   ]
 }
