@@ -6,7 +6,8 @@
     },
     {
       "id": 2,
-      "name": "Fix the dependencies"
+      "name": "Fix the dependencies",
+      "isComplete": true
     },
     {
       "id": 2,
@@ -24,7 +25,7 @@
     },
     {
       "name": "Hello World",
-      "isComplete": false,
+      "isComplete": true,
       "id": 5
     },
     {
@@ -51,6 +52,11 @@
       "name": "another new todo",
       "isComplete": false,
       "id": 10
+    },
+    {
+      "name": "fe",
+      "isComplete": false,
+      "id": 11
     }
   ]
 }
